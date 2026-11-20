@@ -1,2 +1,109 @@
 # Decodelabs_intership-project
 Credit-Card-Fraud-Detection-ML
+
+# Credit Card Fraud Detection Using Machine Learning
+
+## Project Overview
+
+This project uses Machine Learning classification
+algorithms to identify fraudulent credit card transactions.
+
+The main objective is to detect fraud in a highly
+imbalanced dataset using SMOTE and evaluate models
+using Precision, Recall, F1-Score, ROC-AUC and PR-AUC.
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Imbalanced-learn
+- Joblib
+
+## Machine Learning Algorithms
+
+1. Logistic Regression
+2. Random Forest Classifier
+3. Tuned Random Forest Classifier
+
+## Project Workflow
+
+1. Dataset Loading
+2. Data Cleaning
+3. Exploratory Data Analysis
+4. Train-Test Split
+5. Handling Imbalanced Data using SMOTE
+6. Model Training
+7. Hyperparameter Tuning
+8. Model Evaluation
+9. Model Saving
+10. Data Visualization
+
+## Evaluation Metrics
+
+- Precision
+- Recall
+- F1-Score
+- ROC-AUC
+- PR-AUC
+
+## Project Visualizations
+
+### Class Distribution
+![Class Distribution](outputs/class_distribution.png)
+
+### Confusion Matrix
+![Confusion Matrix](outputs/confusion_matrix.png)
+
+### ROC Curve
+![ROC Curve](outputs/roc_curve.png)
+
+### Model Comparison
+![Model Comparison](outputs/model_comparison.png)
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR-USERNAME/Credit-Card-Fraud-Detection-ML.git
+```
+
+Move into the project directory:
+
+```bash
+cd Credit-Card-Fraud-Detection-ML
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Download the credit card dataset and place it inside
+the dataset folder as creditcard.csv.
+
+Run the project:
+
+```bash
+python src/fraud_detection.py
+```
+
+## Dataset
+
+Dataset: Credit Card Fraud Detection Dataset
+
+Source:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+## Author
+
+Your Name
+
+## License
+
+MIT License
